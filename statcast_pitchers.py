@@ -13,11 +13,10 @@ def refresh_data():
 
 def get_df():
     df = pd.read_csv(SAVE_PATH)
+    df = df.rename(columns=lambda x: x.strip())
+    df['first_name'] = df.apply(lambda x: x.first_name.strip(),axis=1)
+    df['full_name'] = df.apply(lambda x: x.first_name.strip() + ' ' + x.last_name.strip(),axis=1)
     return df
 
-
-refresh_data()
-df = get_df()
-df.head()
 
 

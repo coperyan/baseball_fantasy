@@ -1,0 +1,54 @@
+{
+    "stats":
+    [
+        {
+            "stat_name": "Innings Pitched",
+            "stat_col": "p_formatted_ip",
+            "stat_abb": "IP",
+            "points": 3
+        },
+        {
+            "stat_name": "Hits Allowed",
+            "stat_col": "p_total_hits",
+            "stat_abb": "H",
+            "points": -1
+        },
+        {
+            "stat_name": "Earned Runs",
+            "stat_col": "p_earned_run",
+            "stat_abb": "ER",
+            "points": -2
+        },
+        {
+            "stat_name": "Walks Issued",
+            "stat_col": "p_walk",
+            "stat_abb": "BB",
+            "points": -1
+        },
+        {
+            "stat_name": "Strikeouts",
+            "stat_col": "p_strikeout",
+            "stat_abb": "K",
+            "points": 1
+        },
+        {
+            "stat_name": "Wins",
+            "stat_col": "p_win",
+            "stat_abb": "W",
+            "points": 5
+        },
+        {
+            "stat_name": "Losses",
+            "stat_col": "p_loss",
+            "stat_abb": "L",
+            "points": -5
+        },
+        {
+            "stat_name": "Saves",
+            "stat_col": "p_save",
+            "stat_abb": "SV",
+            "points": 5
+        }
+    ]
+}
+

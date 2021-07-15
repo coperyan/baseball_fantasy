@@ -61,5 +61,3 @@ def refresh_data():
 def get_df():
     df = pd.read_csv(SAVE_PATH)
     return df
-
-

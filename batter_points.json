@@ -1,0 +1,41 @@
+{
+    "stats":
+    [
+        {
+            "stat_name": "Runs",
+            "stat_col": "r_run",
+            "stat_abb": "R",
+            "points": 1
+        },
+        {
+            "stat_name": "Total Bases",
+            "stat_col": "b_total_bases",
+            "stat_abb": "TB",
+            "points": 1
+        },
+        {
+            "stat_name": "Runs Batted In",
+            "stat_col": "b_rbi",
+            "stat_abb": "RBI",
+            "points": 1
+        },
+        {
+            "stat_name": "Walks",
+            "stat_col": "b_walk",
+            "stat_abb": "BB",
+            "points": 1
+        },
+        {
+            "stat_name": "Strikeouts",
+            "stat_col": "b_strikeout",
+            "stat_abb": "K",
+            "points": -1
+        },
+        {
+            "stat_name": "Stolen Bases",
+            "stat_col": "r_total_stolen_base",
+            "stat_abb": "SB",
+            "points": 1
+        }
+    ]
+}
